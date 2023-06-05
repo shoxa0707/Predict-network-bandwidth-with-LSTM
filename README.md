@@ -51,9 +51,3 @@ You can select the model you want to use by:
 Result of the model is shown as floows:
 
 <a><img src="images/result2.png"/></a>
-
-## Features
-
-### Deep Learning
-
-- we have deep neural network with [tensorflow](https://github.com/tensorflow/tensorflow.git)
