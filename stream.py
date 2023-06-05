@@ -47,14 +47,14 @@ option_200 = st.checkbox('LSTM with 200 nodes models')
 option_450 = st.checkbox('LSTM with 450 nodes models')
 try:
     if option_50:
-        scaler50 = joblib.load(f'models/scalers/scaler50_{source}.save')
-        lstm50 = load_model(f'models/models/lstm50_{source}.h5')
+        scaler50 = joblib.load(f'scalers/scaler50_{source}.save')
+        lstm50 = load_model(f'models/lstm50_{source}.h5')
     if option_200:
-        scaler200 = joblib.load(f'models/scalers/scaler200_{source}.save')
-        lstm200 = load_model(f'models/models/lstm200_{source}.h5')
+        scaler200 = joblib.load(f'scalers/scaler200_{source}.save')
+        lstm200 = load_model(f'models/lstm200_{source}.h5')
     if option_450:
-        scaler450 = joblib.load(f'models/scalers/scaler450_{source}.save')
-        lstm450 = load_model(f'models/models/lstm450_{source}.h5')
+        scaler450 = joblib.load(f'scalers/scaler450_{source}.save')
+        lstm450 = load_model(f'models/lstm450_{source}.h5')
 except:
     st.write("You must upload csv file!")
 
